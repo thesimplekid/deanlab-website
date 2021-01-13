@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+
+{{ range .Pages }}
+
+<article class="card car-block" style="clear: both;">
+
+    <h4 style="text-align: left"><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+    {{ if .Params.imageid }}
+    <img alt=" {{ .Title }}" style="margin: 15px; float:left"
+        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.imageid }}">
+    </img>
+    {{ else if .Params.picture }}
+    <img alt=" {{ .Title }}" style="margin: 15px; float:left"
+        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320{{ .Params.picture }}">
+    </img>
+    {{ end }}
+
+    <div>
+        <p>{{ .Content }}</p>
+    </div>
+    <div style="clear: both;"></div>
+</article>
+{{ end }}
+{{ end }}

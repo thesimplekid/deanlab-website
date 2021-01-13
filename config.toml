@@ -1,0 +1,11 @@
+baseURL = "https://epic-engelbart-551ab7.netlify.app/"
+languageCode = "en-us"
+title = "The Dean Lab"
+
+enableGitInfo = true
+
+[params]
+    cloudinary_id="codegaucho"
+    email = "cory.dean@gmail.com"
+    google_scholar = "z3z-PV8AAAAJ&hl"
+    copyright = "© The Dean Lab 2021"
