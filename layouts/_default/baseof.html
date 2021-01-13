@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang=en>
 
-</html>
-
 <head>
+    <meta charset="utf-8" />
+
+    <title> {{.Page.Title}} </title>
+
     {{ block "head" . }}
     {{ end }}
 
-
+    {{ block "meta" .}}
+    {{ end }}
 
     {{ partial "header/site-head.html" .}}
-    {{ partial "header/site-nav.html" .}}
+
 
 </head>
 
 <body>
+    {{ partial "header/site-nav.html" .}}
+
     <br />
     <div class="container">
 

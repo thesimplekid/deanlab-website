@@ -1,8 +1,13 @@
 baseURL = "/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "The Dean Lab"
 
 enableGitInfo = true
+enableRobotsTXT = true
+
+disableKinds = ['taxonomyTerm', 'term']
+
 
 [params]
     cloudinary_id="codegaucho"
