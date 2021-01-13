@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5acd668c-a1d7-431b-b5ee-c8dc698b4d56/deploy-status)](https://app.netlify.com/sites/tender-golick-d38f42/deploys)
+
 ## Dean Lab Website
 
 Website for the [Dean lab](deanlab.com) at Columbia University. 
