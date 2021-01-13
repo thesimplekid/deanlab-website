@@ -2,11 +2,11 @@
 
 ## Dean Lab Website
 
-Website for the [Dean lab](deanlab.com) at Columbia University. 
+Website for the [Dean lab](https://deanlab.com) at Columbia University. 
 
 ## Built with
 
-Developed using [Hugo](gohugo.io) with a [Netlify CMS](https://www.netlifycms.org/) hosted on [Netlify](https://www.netlify.com/)
+Developed using [Hugo](https://gohugo.io) with a [Netlify CMS](https://www.netlifycms.org/) hosted on [Netlify](https://www.netlify.com/)
 
 
 ## Built By
