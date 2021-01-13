@@ -3,6 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   media_folder: "static/images/uploads"
 
+publish_mode: editorial_workflow
+
 media_library:
   name: cloudinary
   output_filename_only: true
