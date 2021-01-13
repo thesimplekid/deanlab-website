@@ -31,6 +31,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        required: false
+
   - name: "people"
     label: "People"
     folder: "content/people"
@@ -52,6 +54,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        required: false
+
   - name: "research"
     label: "Research"
     folder: "content/research"
@@ -73,6 +77,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        required: false
+
   - name: "news"
     label: "News"
     folder: "content/news"
@@ -91,6 +97,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+        required: false
+
   - name: "pages"
     label: "Pages"
     files:
