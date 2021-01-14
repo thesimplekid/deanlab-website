@@ -10,7 +10,7 @@ disableKinds = ['taxonomyTerm', 'term']
 
 
 [params]
-    cloudinary_id="codegaucho"
+    cloudinary_id="deanlab"
     email = "cory.dean@gmail.com"
     google_scholar = "z3z-PV8AAAAJ&hl"
     copyright = "© The Dean Lab 2021"
