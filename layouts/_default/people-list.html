@@ -3,37 +3,35 @@
 {{ .Content }}
 
 <div class="container">
-    <div class="row">
+    <div class="card-columns">
 
         {{ range sort .Pages }}
 
-        <div class="col-sm-4">
-            <div class="card">
-                {{ if .Params.imageid }}
-                <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-                    src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500/{{ .Params.imageid }}">
-                </img>
-                {{ else if .Params.headshot }}
-                <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-                    src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500{{ .Params.headshot }}">
-                </img>
+        <div class="card">
+            {{ if .Params.imageid }}
+            <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
+                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500/{{ .Params.imageid }}">
+            </img>
+            {{ else if .Params.headshot }}
+            <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
+                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500{{ .Params.headshot }}">
+            </img>
 
+            {{ end }}
+            <div class="card-block">
+                <h3 class="card-title">
+                    <!--<a href="{{ .Permalink }}"> -->{{ .Params.Name }}
+                    <!--</a>-->
+                </h3>
+                {{ if .Params.Title }}
+                <h5>{{ .Params.Title }}</h5>
+                {{ else if .Params.position }}
+                <h5>{{ .Params.position }}</h5>
                 {{ end }}
-                <div class="card-block">
-                    <h3 class="card-title">
-                        <!--<a href="{{ .Permalink }}"> -->{{ .Params.Name }}
-                        <!--</a>-->
-                    </h3>
-                    {{ if .Params.Title }}
-                    <h5>{{ .Params.Title }}</h5>
-                    {{ else if .Params.position }}
-                    <h5>{{ .Params.position }}</h5>
-                    {{ end }}
-                    <p class="card-text">{{ .Content }}</p>
+                <p class="card-text">{{ .Content }}</p>
 
-                    <!-- <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
+                <!-- <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
                     -->
-                </div>
             </div>
         </div>
 
