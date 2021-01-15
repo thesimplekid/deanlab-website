@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://deanlab.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "The Dean Lab"
