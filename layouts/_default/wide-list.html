@@ -5,23 +5,26 @@
 
 {{ range .Pages }}
 
-<article class="card card-block" style="clear: both;">
+<div class="card">
+    <div class="row no-gutters">
 
-    <h4 style="text-align: left"><a href="{{.Permalink}}">{{ .Title }}</a></h4>
-    {{ if .Params.imageid }}
-    <img alt=" {{ .Title }}" style="margin: 15px; float:left"
-        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.imageid }}">
-    </img>
-    {{ else if .Params.picture }}
-    <img alt=" {{ .Title }}" style="margin: 15px; float:left"
-        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320{{ .Params.picture }}">
-    </img>
-    {{ end }}
+        <div class="col-auto">
+            {{ if .Params.imageid }}
+            <img alt=" {{ .Title }}"
+                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.imageid }}">
+            </img>
+            {{ else if .Params.picture }}
+            <img alt=" {{ .Title }}"
+                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320{{ .Params.picture }}">
+            </img>
+            {{ end }}
+        </div>
 
-    <div>
-        <p>{{ .Content }}</p>
+        <div class="col px-3">
+            <h4 class="card-title"><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+            <p class="card-text">{{ .Content }}</p>
+        </div>
     </div>
-    <div style="clear: both;"></div>
-</article>
+</div>
 {{ end }}
 {{ end }}
