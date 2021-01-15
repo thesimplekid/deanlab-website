@@ -2,8 +2,8 @@
 
 <footer role="contentinfo" class="text-muted">
     <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-0 col-sm-4">
+        <div class="row">
+            <div class="col">
                 <div class="row">
                     <p>{{ .Site.Params.copyright }}</p>
                 </div>
@@ -11,8 +11,7 @@
                     <a href="/admin">Login</a>
                 </div>
             </div>
-            <div class="col-4 col-sm-8 text-right">
-                <!-- TODO - algin footer -->
+            <div class="col3">
                 <div class="row">
                     <a href="mailto:{{ .Site.Params.email }}">
                         <i class="fa fa-envelope"></i> {{ .Site.Params.email }}
