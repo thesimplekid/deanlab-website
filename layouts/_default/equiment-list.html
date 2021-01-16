@@ -7,15 +7,9 @@
     {{ range .Pages }}
 
     <div class="card">
-        {{ if .Params.imageid }}
         <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300/{{ .Params.imageid }}">
+            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300/{{ .Params.image }}">
         </img>
-        {{ else if .Params.thumbnail }}
-        <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300{{ .Params.thumbnail }}">
-        </img>
-        {{ end }}
 
         <div class="card-body">
             <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>

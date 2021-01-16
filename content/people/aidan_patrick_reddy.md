@@ -4,7 +4,7 @@ position: Undergrad.
 lab: ""
 about:
 phone: ""
-headshot: /o2vdultfgloxhyefajpo.jpg
+image: /o2vdultfgloxhyefajpo.jpg
 office: ""
 email: ""
 ---

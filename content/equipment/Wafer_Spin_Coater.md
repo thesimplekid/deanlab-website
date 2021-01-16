@@ -1,6 +1,6 @@
 ---
 title: "Wafer Spin Coater"
-imageid: faeoenka81ijyi0hpm9r
+image: faeoenka81ijyi0hpm9r
 ---
 
 Laurell Technologies Corporation Spin Coater.

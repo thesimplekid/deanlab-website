@@ -1,6 +1,6 @@
 ---
 title: "DC Prober"
-imageid: qx5fk34oqfimpaqhozf8
+image: qx5fk34oqfimpaqhozf8
 ---
 
 Rucker & Kolls 667 prober

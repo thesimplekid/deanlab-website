@@ -4,7 +4,7 @@ position: Ph.D. student
 lab: ""
 about:
 phone: ""
-headshot: /w0qhdwxhcvpmqshfycve.jpg
+image: /w0qhdwxhcvpmqshfycve.jpg
 office: ""
 email: ""
 ---

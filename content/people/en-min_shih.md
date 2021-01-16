@@ -5,7 +5,7 @@ about: ""
 google_scholar: 
 office: ""
 lab: ""
-headshot: /qvguqoz6vzdhpulnprxx.jpg
+image: /qvguqoz6vzdhpulnprxx.jpg
 email: ""
 phone: ""
 ---
