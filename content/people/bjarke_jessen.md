@@ -4,7 +4,7 @@ position: "Postdoc"
 about: ""
 google_scholar: 
 office: ""
-lab: ""
+status: current
 image: /jhr0grln3ljdq5d1foub.jpg
 email: ""
 phone: ""
