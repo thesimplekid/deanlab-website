@@ -1,12 +1,14 @@
 ---
-name: "Adam Williams"
-title: "Ph.D. student"
-description: ""
-google_scholar:
-office: ""
+google_scholar: null
+name: Adam Williams
+position: idk
+permalink: /people/adam_williams
 lab: ""
-imageid: "w0qhdwxhcvpmqshfycve"
-email: ""
+about: hes really cool
 phone: ""
-permalink: "/people/adam_williams"
+imageid: w0qhdwxhcvpmqshfycve
+title: Ph.D. student
+office: ""
+email: ""
+description: ""
 ---
