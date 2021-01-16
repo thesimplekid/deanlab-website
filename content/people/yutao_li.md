@@ -1,12 +1,11 @@
 ---
 name: "Yutao Li"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "d9biwlvlponf4slxxyqz"
+headshot: /d9biwlvlponf4slxxyqz.jpg
 email: ""
 phone: ""
-permalink: "/people/yutao_li"
 ---

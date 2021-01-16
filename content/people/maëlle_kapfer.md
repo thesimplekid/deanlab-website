@@ -1,12 +1,11 @@
 ---
 name: "Maëlle Kapfer"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "zklowz1mcxlblibhgf2j"
+headshot: /zklowz1mcxlblibhgf2j.jpg
 email: ""
 phone: ""
-permalink: "/people/maëlle_kapfer"
 ---

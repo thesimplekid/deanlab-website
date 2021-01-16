@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: dev # Branch to update (optional; defaults to master)
   media_folder: "static/images/uploads"
+
+local_backend: true
 
 # publish_mode: editorial_workflow
 
@@ -51,6 +53,10 @@ collections:
       - label: "Position"
         name: "position"
         widget: "string"
+      - label: "About"
+        name: "about"
+        widget: "string"
+        required: false
       - label: "Body"
         name: "body"
         widget: "markdown"

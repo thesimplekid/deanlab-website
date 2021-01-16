@@ -1,12 +1,10 @@
 ---
-name: "Aidan Patrick Reddy"
-title: "Undergrad."
-description: ""
-google_scholar: 
-office: ""
+name: Aidan Patrick Reddy
+position: Undergrad.
 lab: ""
-imageid: "o2vdultfgloxhyefajpo"
-email: ""
+about:
 phone: ""
-permalink: "/people/aidan_patrick_reddy"
+headshot: /o2vdultfgloxhyefajpo.jpg
+office: ""
+email: ""
 ---

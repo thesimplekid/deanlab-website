@@ -1,12 +1,11 @@
 ---
 name: "Bjarke Jessen"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "jhr0grln3ljdq5d1foub"
+headshot: /jhr0grln3ljdq5d1foub.jpg
 email: ""
 phone: ""
-permalink: "/people/bjarke_jessen"
 ---

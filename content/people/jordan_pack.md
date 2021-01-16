@@ -1,12 +1,11 @@
 ---
 name: "Jordan Pack"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "xwrtubem7ldck58plwgf"
+headshot: /xwrtubem7ldck58plwgf.jpg
 email: ""
 phone: ""
-permalink: "/people/jordan_pack"
 ---

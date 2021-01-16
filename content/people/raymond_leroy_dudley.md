@@ -1,12 +1,11 @@
 ---
 name: "Raymond Leroy Dudley"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "tz5rwxawjodbddutm8xj"
+headshot: /tz5rwxawjodbddutm8xj.jpg
 email: ""
 phone: ""
-permalink: "/people/raymond_leroy_dudley"
 ---

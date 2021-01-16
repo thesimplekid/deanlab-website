@@ -1,12 +1,11 @@
 ---
 name: "Avishai Benyamini"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "iahaeznn9ykerpj0egez"
+headshot: /iahaeznn9ykerpj0egez.jpg
 email: ""
 phone: ""
-permalink: "/people/avishai_benyamini"
 ---

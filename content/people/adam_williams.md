@@ -1,12 +1,10 @@
 ---
-name: "Adam Williams"
-title: "Ph.D. student"
-description: ""
-google_scholar:
-office: ""
+name: Adam Williams
+position: Ph.D. student
 lab: ""
-imageid: "w0qhdwxhcvpmqshfycve"
-email: ""
+about:
 phone: ""
-permalink: "/people/adam_williams"
+headshot: /w0qhdwxhcvpmqshfycve.jpg
+office: ""
+email: ""
 ---

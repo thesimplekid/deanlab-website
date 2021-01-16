@@ -1,12 +1,11 @@
 ---
 name: "Qianhui Shi"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "trv1h9pmzgs2ahggrix7"
+headshot: /trv1h9pmzgs2ahggrix7.jpg
 email: ""
 phone: ""
-permalink: "/people/qianhui_shi"
 ---
