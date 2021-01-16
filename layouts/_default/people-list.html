@@ -9,11 +9,11 @@
     <div class="card">
         {{ if .Params.imageid }}
         <img alt=" {{ .Title }}" class="card-img-top" style="display: block;"
-            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500/{{ .Params.imageid }}">
+            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,h_350,q_100,w_500/{{ .Params.imageid }}">
         </img>
         {{ else if .Params.headshot }}
         <img alt=" {{ .Title }}" class="card-img-top" style="display: block;"
-            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500{{ .Params.headshot }}">
+            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,h_350,q_100,w_500{{ .Params.headshot }}">
         </img>
 
         {{ end }}
