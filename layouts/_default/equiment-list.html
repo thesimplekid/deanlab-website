@@ -2,35 +2,30 @@
 
 {{ .Content }}
 
-<div class="container-fluid">
-    <div class="row module-row">
+<div class="card-columns">
 
-        {{ range .Pages }}
+    {{ range .Pages }}
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-block">
-                    {{ if .Params.imageid }}
-                    <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-                        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300/{{ .Params.imageid }}">
-                    </img>
-                    {{ else if .Params.thumbnail }}
-                    <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-                        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300{{ .Params.thumbnail }}">
-                    </img>
-
-                    {{ end }}
-
-                    <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    <p class="card-text">{{ .Content }}</p>
-                    <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
-                </div>
-            </div>
-        </div>
-
+    <div class="card">
+        {{ if .Params.imageid }}
+        <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
+            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300/{{ .Params.imageid }}">
+        </img>
+        {{ else if .Params.thumbnail }}
+        <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
+            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_500,h_300{{ .Params.thumbnail }}">
+        </img>
         {{ end }}
 
-
+        <div class="card-body">
+            <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p class="card-text">{{ .Content }}</p>
+            <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
+        </div>
     </div>
+
+    {{ end }}
+
+
 </div>
 {{ end }}
