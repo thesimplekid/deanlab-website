@@ -1,6 +1,6 @@
 ---
 title: "3He Cryostat"
-imageid: iyacgom5sourrtdsenje
+image: iyacgom5sourrtdsenje
 ---
 
 Oxford Instruments Heliox TL

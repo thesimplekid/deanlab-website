@@ -1,12 +1,11 @@
 ---
 name: "Anna Okounkova"
-title: "Undergrad."
-description: ""
+position: "Undergrad."
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "fnjd7rj8pmbyjahnymnb"
+image: /fnjd7rj8pmbyjahnymnb.jpg
 email: ""
 phone: ""
-permalink: "/people/anna_okounkova"
 ---

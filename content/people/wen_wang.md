@@ -1,12 +1,11 @@
 ---
 name: "Wen Wang"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "ijhhvqywuo68vjbbabkp"
+image: /ijhhvqywuo68vjbbabkp.jpg
 email: ""
 phone: ""
-permalink: "/people/wen_wang"
 ---

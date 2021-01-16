@@ -1,6 +1,6 @@
 ---
 title: "Variable Temperature Prober"
-imageid: hvbtp5pan2fxewb5tdxq
+image: hvbtp5pan2fxewb5tdxq
 ---
 
 Cascade Microtech Summit 9600 Prober

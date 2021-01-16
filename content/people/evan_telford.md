@@ -1,12 +1,11 @@
 ---
 name: "Evan Telford"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "rpcndnu2ayuvyro9ddng"
+image: /rpcndnu2ayuvyro9ddng.jpg
 email: ""
 phone: ""
-permalink: "/people/evan_telford"
 ---

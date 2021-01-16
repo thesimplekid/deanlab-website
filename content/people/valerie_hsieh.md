@@ -1,12 +1,11 @@
 ---
 name: "Valerie Hsieh"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "ruhr5oistv0gqukwffze"
+image: /ruhr5oistv0gqukwffze.jpg
 email: ""
 phone: ""
-permalink: "/people/valerie_hsieh"
 ---

@@ -8,17 +8,14 @@
 <div class="card">
     <div class="row no-gutters">
 
+        {{ if .Params.image }}
+
         <div class="col-auto">
-            {{ if .Params.imageid }}
             <img alt=" {{ .Title }}"
-                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.imageid }}">
+                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.image }}">
             </img>
-            {{ else if .Params.picture }}
-            <img alt=" {{ .Title }}"
-                src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320{{ .Params.picture }}">
-            </img>
-            {{ end }}
         </div>
+        {{ end }}
 
         <div class="col px-3">
             <h4 class="card-title"><a href="{{.Permalink}}">{{ .Title }}</a></h4>

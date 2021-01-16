@@ -3,6 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   media_folder: "static/images/uploads"
 
+# local_backend: true
+
 # publish_mode: editorial_workflow
 
 media_library:
@@ -24,8 +26,8 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-      - label: "Featured Image"
-        name: "thumbnail"
+      - label: "Image"
+        name: "image"
         widget: "image"
         required: false
       - label: "Body"
@@ -44,13 +46,17 @@ collections:
       - label: "Name"
         name: "name"
         widget: "string"
-      - label: "Headshot"
-        name: "headshot"
+      - label: "Image"
+        name: "image"
         widget: "image"
         required: false
       - label: "Position"
         name: "position"
         widget: "string"
+      - label: "About"
+        name: "about"
+        widget: "string"
+        required: false
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -70,8 +76,8 @@ collections:
       - label: "Date"
         name: "date"
         widget: "date"
-      - label: "Picture"
-        name: "picture"
+      - label: "Image"
+        name: "image"
         widget: "image"
         required: false
       - label: "Body"

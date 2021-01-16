@@ -1,12 +1,11 @@
 ---
 name: "Josh Swann"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "lknz6gcpbmheereocahs"
+image: /lknz6gcpbmheereocahs.jpg
 email: ""
 phone: ""
-permalink: "/people/josh_swann"
 ---

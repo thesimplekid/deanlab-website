@@ -1,12 +1,11 @@
 ---
 name: "En-Min Shih"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "qvguqoz6vzdhpulnprxx"
+image: /qvguqoz6vzdhpulnprxx.jpg
 email: ""
 phone: ""
-permalink: "/people/en-min_shih"
 ---

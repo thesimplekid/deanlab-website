@@ -1,6 +1,6 @@
 ---
 title: "Atomic Force Microscope"
-imageid: v1387159995/j6eibr59dpf0zzlyok8t
+image: v1387159995/j6eibr59dpf0zzlyok8t
 categories: test baaa
 ---
 

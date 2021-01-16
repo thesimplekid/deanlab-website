@@ -1,12 +1,11 @@
 ---
 name: "Yihang Zeng"
-title: "Ph.D. student"
-description: ""
+position: "Ph.D. student"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "dhabquewg2kxtwqu9v2o"
+image: /dhabquewg2kxtwqu9v2o.jpg
 email: ""
 phone: ""
-permalink: "/people/yihang_zeng"
 ---

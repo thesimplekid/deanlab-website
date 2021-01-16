@@ -1,12 +1,11 @@
 ---
 name: "Shaowen Chen"
-title: "Postdoc"
-description: ""
+position: "Postdoc"
+about: ""
 google_scholar: 
 office: ""
 lab: ""
-imageid: "te1twpuusvfxyzad9xgc"
+image: /te1twpuusvfxyzad9xgc.jpg
 email: ""
 phone: ""
-permalink: "/people/shaowen_chen"
 ---
