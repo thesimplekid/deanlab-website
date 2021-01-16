@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: 8-seprate-current-and-former-people # Branch to update (optional; defaults to master)
   media_folder: "static/images/uploads"
 
-# local_backend: true
+local_backend: true
 
 # publish_mode: editorial_workflow
 
@@ -53,6 +53,10 @@ collections:
       - label: "Position"
         name: "position"
         widget: "string"
+      - lable: "Current or Former"
+        name: "status"
+        widget: "select"
+        options: ["current", "former"]
       - label: "About"
         name: "about"
         widget: "string"
