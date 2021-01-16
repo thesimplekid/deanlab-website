@@ -1,7 +1,7 @@
 ---
 name: Aidan Patrick Reddy
 position: Undergrad.
-lab: ""
+status: current
 about:
 phone: ""
 image: /o2vdultfgloxhyefajpo.jpg

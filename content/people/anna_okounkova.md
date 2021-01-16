@@ -4,7 +4,7 @@ position: "Undergrad."
 about: ""
 google_scholar: 
 office: ""
-lab: ""
+status: current
 image: /fnjd7rj8pmbyjahnymnb.jpg
 email: ""
 phone: ""

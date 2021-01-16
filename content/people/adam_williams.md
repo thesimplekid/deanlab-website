@@ -1,7 +1,7 @@
 ---
 name: Adam Williams
 position: Ph.D. student
-lab: ""
+status: current
 about:
 phone: ""
 image: /w0qhdwxhcvpmqshfycve.jpg
