@@ -9,12 +9,9 @@ publications:
     link: https://arxiv.org/abs/2001.03812
 authors: Jue Wang, Qianhui Shi, En-Min Shih, Lin Zhou, Wenjing Wu, Yusong Bai,
   Daniel A. Rhodes, Katayun Barmak, James Hone, Cory R. Dean, X.-Y. Zhu
-pubs:
-  - publication_title: test
-    authors: brendan
-    year: "2020"
+pubs: []
 journal: arXiv:2001.03812
-title: Publications
+title: Publications test
 link: https://arxiv.org/abs/2001.03812
 year: "2020"
 menu:
