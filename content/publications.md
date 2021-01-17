@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: Publications
 menu:
   navbar:
     weight: 6
