@@ -16,11 +16,11 @@
 
 {{range $element := $.Params.publications }}
 
-{{if eq $element.year $elem_val }}
+    {{if and (eq $element.year $elem_val) (not (eq $element.draft "true")) }}
 
-{{ partial "publication.html" . }}
+        {{ partial "publication.html" . }}
 
-{{ end }}
+    {{ end }}
 
 
 
