@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   media_folder: "static/images/uploads"
 
-# local_backend: true
+#local_backend: true
 
 # publish_mode: editorial_workflow
 
@@ -154,9 +154,47 @@ collections:
             name: "body"
             widget: "markdown"
       - file: "content/publications.md"
-        label: "Publications"
+        label: "Publications Page"
         name: "publications"
+        media_folder: "static/images/uploads"
+        editor:
+          preview: false
         fields:
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
+          - { label: Title, name: title, widget: string }
+          - label: Publications
+            name: publications
+            widget: list
+            fields:
+              - label: "Publication"
+                name: "publication_title"
+                widget: "string"
+              - label: "Authors"
+                name: "authors"
+                widget: "string"
+              - label: "Year"
+                name: "year"
+                widget: "string"
+              - label: "Journal"
+                name: "journal"
+                widget: "string"
+                required: false
+              - label: "Volume"
+                name: "volume"
+                widget: "string"
+                required: false
+              - label: "Issue"
+                name: "issue"
+                widget: "string"
+                required: false
+              - label: "Page"
+                name: "page"
+                widget: "string"
+                required: false
+              - label: "DOI"
+                name: "doi"
+                widget: "string"
+                required: false
+              - label: "Link"
+                name: "link"
+                widget: "string"
+                required: false
