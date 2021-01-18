@@ -1,0 +1,33 @@
+<p>
+    <strong>{{.publication_title}}</strong>
+    <br>
+    {{.authors}}
+    <br>
+    <em>{{.journal}}</em>
+    <br>
+    {{ $needBr := false }}
+    {{if .volume}}
+    volume: {{.volume}}
+    {{$needBr = true}}
+    {{end}}
+    {{if .issue }}
+    issue: {{.issue}}
+    {{$needBr = true}}
+    {{ end }}
+    {{ if .page }}
+    page: {{ .page }}
+    {{$needBr = true}}
+    {{ end }}
+    {{if eq $needBr true}}<br>{{end}}
+    {{.year}}
+    <br>
+    {{ if .link }}
+
+    <a href={{.link}}>{{ if .doi }}{{ .doi }}{{ else }}{{ .link }}{{ end }}</a>
+
+    {{else if .doi}}
+    <a href="https://dx.doi.org/{{.doi}}">{{ .doi }}</a>
+    {{ end }}
+
+
+</p>
