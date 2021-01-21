@@ -1,5 +1,6 @@
 ---
 title: Research
+description: "The research done at The Dean Lab"
 menu:
   navbar:
     weight: 5

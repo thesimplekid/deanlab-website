@@ -1,12 +1,14 @@
 ---
 layout: publications
 title: Publications
+description: "The publications of The Dean Lab"
 menu:
   navbar:
     weight: 6
 publications:
   - publication_title: Excitonic Phase Transitions in MoSe2/WSe2 Heterobilayers
-    authors: Jue Wang, Qianhui Shi, En-Min Shih, Lin Zhou, Wenjing Wu, Yusong Bai,
+    authors:
+      Jue Wang, Qianhui Shi, En-Min Shih, Lin Zhou, Wenjing Wu, Yusong Bai,
       Daniel A. Rhodes, Katayun Barmak, James Hone, Cory R. Dean, X.-Y. Zhu
     journal: arXiv:2001.03812
     year: "2020"
@@ -19,14 +21,16 @@ publications:
     link: https://arxiv.org/abs/2006.08868
   - publication_title: Electrically tunable correlated and topological states in
       twisted monolayer-bilayer graphene
-    authors: Shaowen Chen, Minhao He, Ya-Hui Zhang, Valerie Hsieh, Zaiyao Fei, K.
+    authors:
+      Shaowen Chen, Minhao He, Ya-Hui Zhang, Valerie Hsieh, Zaiyao Fei, K.
       Watanabe, T. Taniguchi, David H. Cobden, Xiaodong Xu, Cory R. Dean,
       Matthew Yankowitz
     journal: arXiv:2004.11340
     year: "2020"
     link: https://arxiv.org/abs/2004.11340
   - publication_title: Nonlinear twistoptics at symmetry-broken interfaces
-    authors: Kaiyuan Yao, Nathan R. Finney, Jin Zhang, Samuel L. Moore, Lede Xian,
+    authors:
+      Kaiyuan Yao, Nathan R. Finney, Jin Zhang, Samuel L. Moore, Lede Xian,
       Nicolas Tancogne-Dejean, Fang Liu, Jenny Ardelean, Xinyi Xu, Dorri
       Halbertal, K. Watanabe, T. Taniguchi, Hector Ochoa, Ana Asenjo-Garcia,
       Xiaoyang Zhu, D. N. Basov, Angel Rubio, Cory R. Dean, James Hone, P. James
@@ -40,7 +44,8 @@ publications:
     year: "2020"
     link: https://10.1038/s41567-020-0906-9
   - publication_title: Odd- and even-denominator fractional quantum Hall states in monolayer WSe2
-    authors: Qianhui Shi, En-Min Shih, Martin V. Gustafsson, Daniel A. Rhodes, Bumho
+    authors:
+      Qianhui Shi, En-Min Shih, Martin V. Gustafsson, Daniel A. Rhodes, Bumho
       Kim, Kenji Watanabe, Takashi Taniguchi, Zlatko Papić, James Hone, Cory R.
       Dean
     journal: Nature Nanotechnology
@@ -49,9 +54,11 @@ publications:
     link: https://arxiv.org/abs/1911.04428
     volume: "15"
     page: 569–573
-  - publication_title: Correlated electronic phases in twisted bilayer transition
+  - publication_title:
+      Correlated electronic phases in twisted bilayer transition
       metal dichalcogenides
-    authors: Lei Wang, En-Min Shih, Augusto Ghiotto, Lede Xian, Daniel A. Rhodes,
+    authors:
+      Lei Wang, En-Min Shih, Augusto Ghiotto, Lede Xian, Daniel A. Rhodes,
       Cheng Tan, Martin Claassen, Dante M. Kennes, Yusong Bai, Bumho Kim, Kenji
       Watanabe, Takashi Taniguchi, Xiaoyang Zhu, James Hone, Angel Rubio, Abhay
       Pasupathy, Cory R. Dean
@@ -75,7 +82,8 @@ publications:
     page: 1718–1724
   - publication_title: Layered Antiferromagnetism Induces Large Negative
       Magnetoresistance in the van der Waals Semiconductor CrSBr
-    authors: Evan J. Telford, Avalon H. Dismukes, Kihong Lee, Minghao Cheng, Andrew
+    authors:
+      Evan J. Telford, Avalon H. Dismukes, Kihong Lee, Minghao Cheng, Andrew
       Wieteska, Yu-Sheng Chen, Xiaodong Xu, Abhay N. Pasupathy, Xiaoyang Zhu,
       Cory R. Dean, Xavier Roy
     page: "2003240"
@@ -105,9 +113,11 @@ publications:
     link: https://dx.doi.org/20.1126/sciadv.aau3826
     year: "2019"
     doi: 20.1126/sciadv.aau3826
-  - publication_title: Maximized electron interactions at the magic angle in twisted
+  - publication_title:
+      Maximized electron interactions at the magic angle in twisted
       bilayer graphene
-    authors: Alexander Kerelsky, Leo McGilly, Dante M. Kennes, Lede Xian, Matthew
+    authors:
+      Alexander Kerelsky, Leo McGilly, Dante M. Kennes, Lede Xian, Matthew
       Yankowitz, Shaowen Chen, K. Watanabe, T. Taniguchi, James Hone, Cory Dean,
       Angel Rubio, Abhay N. Pasupathy
     journal: Nature
@@ -127,7 +137,8 @@ publications:
     volume: "15"
     page: 947–953
   - publication_title: Competing Fractional Quantum Hall and Electron Solid Phases in Graphene
-    authors: Shaowen Chen, Rebeca Ribeiro-Palau, Kang Yang, Kenji Watanabe, Takashi
+    authors:
+      Shaowen Chen, Rebeca Ribeiro-Palau, Kang Yang, Kenji Watanabe, Takashi
       Taniguchi, James Hone, Mark O. Goerbig, Cory R. Dean
     journal: Phys. Rev. Lett.
     year: "2019"
@@ -162,7 +173,8 @@ publications:
     doi: 10.1038/s41567-019-0547-z
     link: https://dx.doi.org/10.1038/s41567-019-0547-z
     page: undefined
-  - publication_title: High-Quality Magnetotransport in Graphene Using the Edge-Free
+  - publication_title:
+      High-Quality Magnetotransport in Graphene Using the Edge-Free
       Corbino Geometry
     authors: Y. Zeng, J.I.A. Li, S.A. Dietrich, O.M. Ghosh, K. Watanabe, T.
       Taniguchi, J. Hone, C.R. Dean
@@ -182,7 +194,8 @@ publications:
     link: https://arxiv.org/abs/1908.10921
     page: undefined
   - publication_title: Large linear-in-temperature resistivity in twisted bilayer graphene
-    authors: H. Polshyn, M. Yankowitz, S. Chen, Y. Zhang, K. Watanabe, T. Taniguchi,
+    authors:
+      H. Polshyn, M. Yankowitz, S. Chen, Y. Zhang, K. Watanabe, T. Taniguchi,
       C. R. Dean, A. F. Young
     journal: Nature Physics
     year: "2019"
@@ -201,7 +214,8 @@ publications:
     volume: "14"
     page: 1029–1034
   - publication_title: Photonic crystal for graphene plasmons
-    authors: L. Xiong, C. Forsythe, M. Jung, A. S. McLeod, S. S. Sunku, Y. M. Shao,
+    authors:
+      L. Xiong, C. Forsythe, M. Jung, A. S. McLeod, S. S. Sunku, Y. M. Shao,
       G. X. Ni, A. J. Sternbach, S. Liu, J. H. Edgar, E. J. Mele, M. M. Fogler,
       G. Shvets, C. R. Dean & D. N. Basov
     journal: Nature Comm.
@@ -210,7 +224,8 @@ publications:
     link: https://www.nature.com/articles/s41467-019-12778-2
     volume: "10"
     page: "4780"
-  - publication_title: Enhanced Superconductivity in Monolayer Td-MoTe2 with Tilted
+  - publication_title:
+      Enhanced Superconductivity in Monolayer Td-MoTe2 with Tilted
       Ising Spin Texture
     authors: Daniel Rhodes, Noah F. Yuan, Younghun Jung, Abhinandan Antony, Hua
       Wang, Bumho Kim, Yu-che Chiu, Takashi Taniguchi, Kenji Watanabe, Katayun
@@ -220,7 +235,8 @@ publications:
     year: "2019"
     link: https://arxiv.org/abs/1905.06508
   - publication_title: Switching 2D Magnetic States via Pressure Tuning of Layer Stacking
-    authors: Tiancheng Song, Zaiyao Fei, Matthew Yankowitz, Zhong Lin, Qianni Jiang,
+    authors:
+      Tiancheng Song, Zaiyao Fei, Matthew Yankowitz, Zhong Lin, Qianni Jiang,
       Kyle Hwangbo, Qi Zhang, Bosong Sun, Takashi Taniguchi, Kenji Watanabe,
       Michael A. McGuire, David Graf, Ting Cao, Jiun-Haw Chu, David H. Cobden,
       Cory R. Dean, Di Xiao, Xiaodong Xu
@@ -229,7 +245,8 @@ publications:
     link: https://10.1038/s41563-019-0505-2
     volume: "18"
     page: 1298–1302
-  - publication_title: Blockade of vortex flow by thermal fluctuations in atomically
+  - publication_title:
+      Blockade of vortex flow by thermal fluctuations in atomically
       thin clean-limit superconductors
     authors: Avishai Benyamini, Dante M. Kennes, Evan Telford, Kenji Watanabe,
       Takashi Taniguchi, Andrew Millis, James Hone, Cory R. Dean, Abhay
@@ -247,7 +264,8 @@ publications:
     link: https://dx.doi.org/10.1126/science.aat6981
     year: "2018"
     doi: 10.1126/science.aat6981
-  - publication_title: Ambipolar Landau levels and strong exchange-enhanced Zeeman
+  - publication_title:
+      Ambipolar Landau levels and strong exchange-enhanced Zeeman
       energy in monolayer WSe2
     authors: Martin V. Gustafsson, Matthew Yankowitz, Carlos Forsythe, Daniel
       Rhodes, Kenji Watanabe, Takashi Taniguchi, James Hone, Xiaoyang Zhu, Cory
@@ -259,7 +277,8 @@ publications:
     volume: "17"
     page: 411–415
   - publication_title: Via Method for Lithography Free Contact and Preservation of 2D Materials
-    authors: Evan J. Telford, Avishai Benyamini, Daniel Rhodes, Da Wang, Younghun
+    authors:
+      Evan J. Telford, Avishai Benyamini, Daniel Rhodes, Da Wang, Younghun
       Jung, Amirali Zangiabadi, Kenji Watanabe, Takashi Taniguchi, Shuang Jia,
       Katayun Barmak, Abhay N. Pasupathy, Cory R. Dean, James Hone
     page: 1416–1420
@@ -269,7 +288,8 @@ publications:
     link: https://dx.doi.org/10.1021/acs.nanolett.7b05161
     year: "2018"
     doi: 10.1021/acs.nanolett.7b05161
-  - publication_title: Band Structure Engineering of 2D Materials using Patterned
+  - publication_title:
+      Band Structure Engineering of 2D Materials using Patterned
       Dielectric Superlattices
     authors: Carlos Forsythe; Xiaodong Zhou; Takashi Taniguchi; Kenji Watanabe;
       Abhay Pasupathy; Pilkyung Moon; Mikito Koshino; Philip Kim; Cory R. Dean
@@ -280,7 +300,8 @@ publications:
     volume: "13"
     page: 566–571
   - publication_title: Dynamic band-structure tuning of graphene moiré superlattices with pressure
-    authors: Matthew Yankowitz, Jeil Jung, Evan Laksono, Nicolas Leconte, Bheema L.
+    authors:
+      Matthew Yankowitz, Jeil Jung, Evan Laksono, Nicolas Leconte, Bheema L.
       Chittari, K. Watanabe, T. Taniguchi, Shaffique Adam, David Graf, Cory R.
       Dean
     journal: Nature
@@ -289,9 +310,11 @@ publications:
     link: https://dx.doi.org/10.1038/s41586-018-0107-1
     volume: "557"
     page: 404–408
-  - publication_title: Emergent Dirac gullies and gully-symmetry breaking quantum
+  - publication_title:
+      Emergent Dirac gullies and gully-symmetry breaking quantum
       Hall states in ABA trilayer graphene
-    authors: Alexander A. Zibrov, Rao Peng, Carlos Kometter, Eric M. Spanton, J.I.A.
+    authors:
+      Alexander A. Zibrov, Rao Peng, Carlos Kometter, Eric M. Spanton, J.I.A.
       Li, Cory R. Dean, Takashi Taniguchi, Kenji Watanabe, Maksym Serbyn, Andrea
       F. Young
     journal: Phys. Rev. Lett.
@@ -311,7 +334,8 @@ publications:
     page: "056802"
   - publication_title: Direct measurement of discrete valley and orbital quantum
       numbers in bilayer graphene
-    authors: B.M. Hunt, J.I.A. Li, A.A. Zibrov, L. Wang, T. Taniguchi, K. Watanabe,
+    authors:
+      B.M. Hunt, J.I.A. Li, A.A. Zibrov, L. Wang, T. Taniguchi, K. Watanabe,
       J. Hone, C. R. Dean, M. Zaletel, R.C. Ashoori, A.F. Young
     journal: Nature Comm.
     year: "2017"
@@ -322,7 +346,8 @@ publications:
   - publication_title: Exceptionally large migration length of carbon and
       topographically-facilitated self-limiting molecular beam epitaxial growth
       of graphene on hexagonal boron nitride
-    authors: Annette S. Plaut, Ulrich Wurstbauer, Sheng Wang, Antonio L. Levy, Lara
+    authors:
+      Annette S. Plaut, Ulrich Wurstbauer, Sheng Wang, Antonio L. Levy, Lara
       Fernandes dos Santos, Lei Wang, Loren N. Pfeiffer, Kenji Watanabe, Takashi
       Taniguchi, Cory R. Dean, James Hone, Aron Pinczuk, Jorge M. Garcia
     journal: Carbon
@@ -331,7 +356,8 @@ publications:
     link: https://dx.doi.org/10.1016/j.carbon.2016.12.031
     volume: "114"
   - publication_title: Even denominator fractional quantum Hall states in bilayer graphene
-    authors: J.I.A.Li, C. Tan, S. Chen, Y. Zeng, T. Taniguchi, K. Watanabe, J. Hone,
+    authors:
+      J.I.A.Li, C. Tan, S. Chen, Y. Zeng, T. Taniguchi, K. Watanabe, J. Hone,
       C.R. Dean
     journal: science
     year: "2017"
@@ -339,9 +365,11 @@ publications:
     link: https://dx.doi.org/10.1126/science.aao2521
     volume: "358"
     page: 648-652
-  - publication_title: Low-Temperature Ohmic Contact to Monolayer MoS2 by van der
+  - publication_title:
+      Low-Temperature Ohmic Contact to Monolayer MoS2 by van der
       Waals Bonded Co/h-BN Electrodes
-    authors: Xu Cui; En-Min Shih; Luis A. Jauregui; Sang Hoon Chae; Young Duck Kim;
+    authors:
+      Xu Cui; En-Min Shih; Luis A. Jauregui; Sang Hoon Chae; Young Duck Kim;
       Baichang Li; Dongjea Seo; Kateryna Pistunova; Jun Yin; Ji-Hoon Park;
       Heon-Jin Choi; Young Hee Lee; Kenji Watanabe; Takashi Taniguchi; Philip
       Kim; Cory R. Dean; and James C. Hone
@@ -368,7 +396,8 @@ publications:
     year: "2016"
     doi: 10.1103/PhysRevLett.117.046802
   - publication_title: Electron optics with p-n junctions in ballistic graphene
-    authors: Shaowen Chen, Zheng Han, Mirza M. Elahi, K. M. Masum Habib, Lei Wang,
+    authors:
+      Shaowen Chen, Zheng Han, Mirza M. Elahi, K. M. Masum Habib, Lei Wang,
       Bo Wen, Yuanda Gao, Takashi Taniguchi, Kenji Watanabe, James Hone, Avik W.
       Ghosh, Cory R. Dean
     journal: Science
@@ -386,7 +415,8 @@ publications:
     page: undefined
   - publication_title: Quantifying electronic band interactions in van der Waals
       materials using angle-resolved reflected-electron spectroscopy
-    authors: Johannes Jobst; Alexander J. H. van der Torren; Eugene E. Krasovskii;
+    authors:
+      Johannes Jobst; Alexander J. H. van der Torren; Eugene E. Krasovskii;
       Jesse Balgley; Cory R. Dean; Rudolf M. Tromp; Sense Jan van der Molen
     journal: Nature Comm.
     year: "2016"
@@ -396,7 +426,8 @@ publications:
     issue: "13621"
   - publication_title: Multiple hot-carrier collection in photo-excited graphene
       Moiré superlattices
-    authors: Sanfeng Wu; Lei Wang; You Lai; Wen-Yu Shan; Grant Aivazian; Xian Zhang;
+    authors:
+      Sanfeng Wu; Lei Wang; You Lai; Wen-Yu Shan; Grant Aivazian; Xian Zhang;
       Takashi Taniguchi; Kenji Watanabe; Di Xiao; Cory Dean; James Hone;
       Zhiqiang Li; Xiaodong Xu
     page: undefined
@@ -407,7 +438,8 @@ publications:
     year: "2016"
     doi: 10.1126/sciadv.1600002
   - publication_title: Unconventional Quantum Hall Edge-Bulk Correlation in Gated Graphene Devices
-    authors: Yong-Tao Cui, Bo Wen, Eric Y. Ma, Georgi Diankov, Zheng Han, Francois
+    authors:
+      Yong-Tao Cui, Bo Wen, Eric Y. Ma, Georgi Diankov, Zheng Han, Francois
       Amet, Takashi Taniguchi, Kenji Watanabe, David Goldhaber-Gordon, Cory R.
       Dean, Zhi-Xun Shen
     journal: Phys. Rev. Lett.
@@ -417,7 +449,8 @@ publications:
     volume: "117"
     page: undefined
   - publication_title: Specular Interband Andreev Reflections in Graphene
-    authors: D. K. Efetov, L. Wang, C. Handschin, K. B. Efetov, J. Shuang, R. Cava,
+    authors:
+      D. K. Efetov, L. Wang, C. Handschin, K. B. Efetov, J. Shuang, R. Cava,
       T. Taniguchi, K. Watanabe, J. Hone, C. R. Dean, P. Kim
     journal: Nature Physics
     year: "2015"
@@ -471,7 +504,8 @@ publications:
     issue: "3"
   - publication_title: Probing Symmetry Properties of Few-Layer MoS2 and h-BN by
       Optical Second-Harmonic Generation
-    authors: "Li, Yilei; Rao, Yi; Mak, Kin; You, Yumeng; Wang, Shuyuan; Dean, Cory;
+    authors:
+      "Li, Yilei; Rao, Yi; Mak, Kin; You, Yumeng; Wang, Shuyuan; Dean, Cory;
       Heinz, Tony F; "
     page: 3329–3333
     journal: Nano letters
@@ -489,17 +523,21 @@ publications:
     link: https://dx.doi.org/10.1109/JPROC.2013.2257634
     volume: "101"
     issue: "7"
-  - publication_title: Evidence for a spin phase transition at charge neutrality in
+  - publication_title:
+      Evidence for a spin phase transition at charge neutrality in
       bilayer graphene
-    authors: "Maher, P; Dean, CR; Young, AF; Taniguchi, T; Watanabe, K; Shepard, KL;
+    authors:
+      "Maher, P; Dean, CR; Young, AF; Taniguchi, T; Watanabe, K; Shepard, KL;
       Hone, J; Kim, P; "
     journal: Nature Physics
     year: "2013"
     doi: 10.1038/nphys2528
     link: https://dx.doi.org/10.1038/nphys2528
-  - publication_title: Hofstadter/'s butterfly and the fractal quantum Hall effect
+  - publication_title:
+      Hofstadter/'s butterfly and the fractal quantum Hall effect
       in moire superlattices
-    authors: "Dean, CR; Wang, L; Maher, P; Forsythe, C; Ghahari, F; Gao, Y; Katoch,
+    authors:
+      "Dean, CR; Wang, L; Maher, P; Forsythe, C; Ghahari, F; Gao, Y; Katoch,
       J; Ishigami, M; Moon, P; Koshino, M; "
     page: 598-602
     journal: Nature
@@ -516,7 +554,8 @@ publications:
     doi: 10.1021/nl4012529
     link: https://dx.doi.org/10.1021/nl4012529
   - publication_title: One-dimensional electrical contact to a two-dimensional material
-    authors: Lei Wang; Inanc Meric; Pinshane Y. Huang; Qun Gao; Yuanda Gao; Helen
+    authors:
+      Lei Wang; Inanc Meric; Pinshane Y. Huang; Qun Gao; Yuanda Gao; Helen
       Tran; Takashi Taniguchi; Kenji Watanabe; Luis M. Campos; David A. Muller;
       Jun Guo,; Philip Kim; James Hone; Kenneth L. Shepard; Cory R. Dean
     journal: "Science "
@@ -527,7 +566,8 @@ publications:
     page: 614-617
   - publication_title: Negligible Environmental Sensitivity of Graphene in a
       Hexagonal Boron Nitride/Graphene/h-BN Sandwich Structure
-    authors: "Wang, Lei; Chen, Zheyuan; Dean, Cory; Taniguchi, Takashi; Watanabe,
+    authors:
+      "Wang, Lei; Chen, Zheyuan; Dean, Cory; Taniguchi, Takashi; Watanabe,
       Kenji; Brus, Louis; Hone, James; "
     journal: ACS nano
     year: "2012"
@@ -564,7 +604,8 @@ publications:
     volume: "8"
     page: 550–556
   - publication_title: Graphene growth on h-BN by Molecular Beam Epitaxy
-    authors: "Garcia, Jorge M; Wurstbauer, Ulrich; Levy, Antonio; Pfeiffer, Loren N;
+    authors:
+      "Garcia, Jorge M; Wurstbauer, Ulrich; Levy, Antonio; Pfeiffer, Loren N;
       Pinczuk, Aron; Plaut, Annette S; Wang, Lei; Dean, Cory R; Buizza, Roberto;
       Van Der Zande, Arend; "
     page: 975–978
@@ -586,9 +627,11 @@ publications:
     link: https://dx.doi.org/10.1103/PhysRevLett.109.116802
     year: "2012"
     doi: 10.1103/PhysRevLett.109.116802
-  - publication_title: Chemical Vapor Deposition-Derived Graphene with Electrical
+  - publication_title:
+      Chemical Vapor Deposition-Derived Graphene with Electrical
       Performance of Exfoliated Graphene
-    authors: "Petrone, Nicholas; Dean, Cory R; Meric, Inanc; van der Zande, Arend M;
+    authors:
+      "Petrone, Nicholas; Dean, Cory R; Meric, Inanc; van der Zande, Arend M;
       Huang, Pinshane Y; Wang, Lei; Muller, David; Shepard, Kenneth L; Hone,
       James; "
     page: 2751-2756
@@ -600,7 +643,8 @@ publications:
     doi: 10.1021/nl204481s
   - publication_title: Electron tunneling through atomically flat and ultrathin
       hexagonal boron nitride
-    authors: "Lee, Gwan-Hyoung; Yu, Young-Jun; Lee, Changgu; Dean, Cory; Shepard,
+    authors:
+      "Lee, Gwan-Hyoung; Yu, Young-Jun; Lee, Changgu; Dean, Cory; Shepard,
       Kenneth L; Kim, Philip; Hone, James; "
     page: 243114-243114-3
     journal: Applied Physics Letters
@@ -611,14 +655,16 @@ publications:
     doi: 10.1063/1.3662043
   - publication_title: High-frequency performance of graphene field effect
       transistors with saturating IV-characteristics
-    authors: "Meric, Inanc; Dean, Cory R; Han, Shu-Jen; Wang, Lei; Jenkins, Keith A;
+    authors:
+      "Meric, Inanc; Dean, Cory R; Han, Shu-Jen; Wang, Lei; Jenkins, Keith A;
       Hone, James; Shepard, KL; "
     journal: Electron Devices Meeting (IEDM), 2011 IEEE International
     year: "2011"
     doi: 10.1109/IEDM.2011.6131472
     link: https://arxiv.org/pdf/1112.2777
     page: 2.1. 1-2.1. 4
-  - publication_title: Channel Length Scaling in Graphene Field-Effect Transistors
+  - publication_title:
+      Channel Length Scaling in Graphene Field-Effect Transistors
       Studied with Pulsed Current− Voltage Measurements
     authors: "Meric, Inanc; Dean, Cory R; Young, Andrea F; Baklitskaya, Natalia;
       Tremblay, Noah J; Nuckolls, Colin; Kim, Philip; Shepard, Kenneth L; "
@@ -630,7 +676,8 @@ publications:
     year: "2011"
     doi: 10.1021/nl103993z
   - publication_title: Multicomponent fractional quantum Hall effect in graphene
-    authors: "Dean, CR; Young, AF; Cadden-Zimansky, P; Wang, L; Ren, H; Watanabe, K;
+    authors:
+      "Dean, CR; Young, AF; Cadden-Zimansky, P; Wang, L; Ren, H; Watanabe, K;
       Taniguchi, T; Kim, P; Hone, J; Shepard, KL; "
     page: 693-696
     journal: Nature Physics
@@ -673,7 +720,8 @@ publications:
     volume: "80"
     issue: "15"
   - publication_title: Intrinsic Gap of the ν= 5/2 Fractional Quantum Hall State
-    authors: "Dean, CR; Piot, BA; Hayden, P; Das Sarma, S; Gervais, G; Pfeiffer, LN;
+    authors:
+      "Dean, CR; Piot, BA; Hayden, P; Das Sarma, S; Gervais, G; Pfeiffer, LN;
       West, KW; "
     page: "146803"
     journal: Physical review letters
@@ -713,9 +761,11 @@ publications:
     link: https://arxiv.org/pdf/0711.4640
     year: "2008"
     doi: 10.1016/j.physe.2007.08.101
-  - publication_title: Contrasting behavior of the 5/2 and 7/3 fractional quantum
+  - publication_title:
+      Contrasting behavior of the 5/2 and 7/3 fractional quantum
       Hall effect in a tilted field
-    authors: "Dean, CR; Piot, BA; Hayden, P; Sarma, S Das; Gervais, G; Pfeiffer, LN;
+    authors:
+      "Dean, CR; Piot, BA; Hayden, P; Sarma, S Das; Gervais, G; Pfeiffer, LN;
       West, KW; "
     journal: "Phys. Rev. Lett. "
     year: "2008"
@@ -760,12 +810,14 @@ publications:
     link: https://dx.doi.org/10.1116/1.2131079
     year: "2005"
     doi: 10.1116/1.2131079
-  - publication_title: Effect of Silicon Carbide Surface Condition on the Growth of
+  - publication_title:
+      Effect of Silicon Carbide Surface Condition on the Growth of
       Nickel Intercalated Graphite
     authors: "Dean, Cory R; "
     journal: (2005)
     year: "2005"
-  - publication_title: Ultrahigh vacuum glancing angle deposition system for thin
+  - publication_title:
+      Ultrahigh vacuum glancing angle deposition system for thin
       films with controlled three-dimensional nanoscale structure
     authors: "Robbie, Kevin; Beydaghyan, Gisia; Brown, Tim; Dean, Cory; Adams,
       Jonathan; Buzea, Cristina; "
