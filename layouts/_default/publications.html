@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+<a href="https://plu.mx/plum/a/?doi=10.1371/journal.pone.0056506" class="plumx-plum-print-popup"></a>
+
 
 {{ $years := slice }}
 
@@ -16,11 +18,11 @@
 
 {{range $element := $.Params.publications }}
 
-    {{if and (eq $element.year $elem_val) (not (eq $element.draft "true")) }}
+{{if and (eq $element.year $elem_val) (not (eq $element.draft "true")) }}
 
-        {{ partial "publication.html" . }}
+{{ partial "publication.html" . }}
 
-    {{ end }}
+{{ end }}
 
 
 
@@ -29,4 +31,9 @@
 
 {{ end }}
 
+{{ end }}
+
+
+{{ define "endBody"}}
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 {{ end }}
