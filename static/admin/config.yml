@@ -112,6 +112,10 @@ collections:
         name: "draft"
         widget: "select"
         options: ["false", "true"]
+      - label: "Featered"
+        name: "menu"
+        options: ["featured", "not_featured"]
+        widget: "select"
       - label: "tags"
         name: "tags"
         widget: "list"

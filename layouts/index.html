@@ -4,16 +4,48 @@
 
 {{ define "main" }}
 
-<header class="post-header">
 
-    <h1 class="post-title"></h1>
-</header>
+<div class="row">
+    <div class="col">{{ .Content }}</div>
 
-<article class="post-content">
-    {{ .Content }}
-</article>
+
+    <div class="col-4">
+
+
+
+        {{ range .Site.Menus.featured }}
+
+
+
+        <div class="card">
+            {{- with .Page -}}
+
+            <img class="card-img-top"
+                src="https://res.cloudinary.com/{{ $.Site.Params.cloudinary_id }}/image/upload/c_lpad,h_300,q_100,w_400/{{ .Params.image }}"
+                alt="Card image cap">
+
+            <div class="card-body">
+
+                <h5 class="card-title">{{ .Title }}</h5>
+
+                <p class="card-text">{{ .Summary }}</p>
+
+                <a href="{{ .Permalink }}" class="text-muted pull-right">More...</a>
+
+            </div>
+
+            {{ end }}
+
+        </div>
+
+        {{ end }}
+    </div>
 
 </div>
+
+
+
+
 
 {{ end }}
 

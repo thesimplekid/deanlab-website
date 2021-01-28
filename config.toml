@@ -6,6 +6,8 @@ title = "The Dean Lab"
 enableGitInfo = true
 enableRobotsTXT = true
 
+summaryLength = 10
+
 disableKinds = ['taxonomyTerm', 'term']
 
 
