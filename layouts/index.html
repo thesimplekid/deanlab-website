@@ -6,48 +6,67 @@
 
 
 <div class="row">
+    {{ $carId := "car" }}
     <div class="col">{{ .Content }}</div>
 
+    {{ if .Site.Menus.featured }}
 
-    <div class="col-4">
+    <div class="col-4" id="{{ $carId }}" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            {{- range $ind, $elem := .Site.Menus.featured -}}
+
+            {{ if eq $ind 0}}
+            <li data-target="#{{ $carId }}" data-slide-to="{{$ind}}" class="active"></li>
+
+            {{ else }}
+            <li data-target="#{{ $carId }}" data-slide-to="{{$ind}}"></li>
+            {{ end }}
+            {{ end }}
+        </ol>
+        <div class="carousel-inner">
+            {{- range $ind, $elem := .Site.Menus.featured -}}
 
 
+            {{ if eq $ind 0}}
 
-        {{ range .Site.Menus.featured }}
+            <div class="carousel-item active">
+                {{- with .Page -}}
 
+                {{ partial "carosel-item.html" . }}
 
-
-        <div class="card">
-            {{- with .Page -}}
-
-            <img class="card-img-top"
-                src="https://res.cloudinary.com/{{ $.Site.Params.cloudinary_id }}/image/upload/c_lpad,h_300,q_100,w_400/{{ .Params.image }}"
-                alt="Card image cap">
-
-            <div class="card-body">
-
-                <h5 class="card-title">{{ .Title }}</h5>
-
-                <p class="card-text">{{ .Summary }}</p>
-
-                <a href="{{ .Permalink }}" class="text-muted pull-right">More...</a>
+                {{ end }}
 
             </div>
+            {{ else }}
+            <div class="carousel-item">
+                {{- with .Page -}}
 
+                {{ partial "carosel-item.html" . }}
+
+                {{ end }}
+
+            </div>
             {{ end }}
-
+            {{ end }}
         </div>
 
-        {{ end }}
-    </div>
 
+        <a class="carousel-control-prev" href="#{{ $carId }}" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#{{ $carId }}" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
 </div>
 
-
-
-
+{{ end }}
 
 {{ end }}
+
+
+
 
 {{ define "endBody" }}
 <script>

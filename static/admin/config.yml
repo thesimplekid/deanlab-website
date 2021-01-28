@@ -143,6 +143,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "Featered"
+        name: "menu"
+        options: ["featured", "not_featured"]
+        widget: "select"
       - label: "Draft"
         name: "draft"
         widget: "select"
