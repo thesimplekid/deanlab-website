@@ -1,0 +1,3 @@
+[submodule "themes/labgo"]
+	path = themes/labgo
+	url = https://gitlab.com/thesimplekid/labgo.git

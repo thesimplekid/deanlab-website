@@ -94,7 +94,7 @@ collections:
     label: "Research"
     folder: "content/research"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{slug}}"
     editor:
       preview: false
     fields:
@@ -129,7 +129,7 @@ collections:
     label: "News"
     folder: "content/news"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{slug}}"
     editor:
       preview: false
     fields:

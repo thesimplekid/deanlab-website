@@ -2,7 +2,7 @@ baseURL = "https://www.deanlab.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "The Dean Lab"
-
+theme = "labgo"
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -12,6 +12,7 @@ disableKinds = ['taxonomyTerm', 'term']
 
 
 [params]
+    useNetlifyCMS = true
     cloudinary_id="deanlab"
     email = "cory.dean@gmail.com"
     google_scholar = "z3z-PV8AAAAJ&hl"
