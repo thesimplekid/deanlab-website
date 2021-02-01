@@ -6,7 +6,7 @@ Website for the [Dean lab](https://deanlab.com) at Columbia University.
 
 ## Built with
 
-Developed using [Hugo](https://gohugo.io) with a [Netlify CMS](https://www.netlifycms.org/) hosted on [Netlify](https://www.netlify.com/)
+Developed using [Hugo](https://gohugo.io) with a [Netlify CMS](https://www.netlifycms.org/) hosted on [Netlify](https://www.netlify.com/) using hugo theme labGo
 
 ## Built By
 
