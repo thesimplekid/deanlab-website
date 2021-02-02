@@ -1,3 +1,4 @@
+
 [submodule "themes/labgo"]
 	path = themes/labgo
-	url = https://gitlab.com/thesimplekid/labgo.git
+	url = https://gitlab.com/labgo-theme/labgo.git
