@@ -15,6 +15,6 @@ disableKinds = ['taxonomyTerm', 'term']
     useNetlifyCMS = true
     cloudinary_id="deanlab"
     email = "cory.dean@gmail.com"
-    google_scholar = "z3z-PV8AAAAJ&hl"
+    google_scholar = "z3z-PV8AAAAJ"
     copyright = "© The Dean Lab 2021"
     description = "The Dean Lab is an experimental condensed matter physics laboratory at Columbia University in the city of New York." 
